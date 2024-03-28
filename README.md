@@ -10,7 +10,7 @@ Comments have been left to show changes done in-detail. By separating each secti
 N/A
 
 ## Usage
-The deployed portfolio webpage can be accessed via Github Pages by following the provided link: [https://ashmeyo74.github.io/first-portfolio/](https://ashmeyo74.github.io/first-portfolio/) 
+The deployed portfolio webpage can be accessed via Github Pages by following the provided link: [https://ashmeyo74.github.io/employeePayroll/](https://ashmeyo74.github.io/employeePayroll/) 
 
 **In order to see the calculated salary and see the random employee elements, the user must access the console by following these steps:**
 * After entering the employee data, right click anywhere on the webpage.
