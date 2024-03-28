@@ -28,7 +28,7 @@ The deployed portfolio webpage can be accessed via Github Pages by following the
 
 
 ## Credits
-N/A
+Bootcamp Spot Tutor helped provide code for 'collectEmployees' function.
 
 ## License
 N/A
