@@ -3,16 +3,20 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Collect employee data
 const collectEmployees = function() {
-  // TODO: Get user input to create and return an array of employee objects
 
   var employees = [];
   var continuePrompt = true;
 
   while (continuePrompt) {
+// Creates three prompts while user continues to hit 'OK.' 
 let firstName = prompt("Enter Employee First Name:") 
 let lastName = prompt("Enter Employee Last Name:") 
 let salary = prompt("Enter Employee Salary:") 
 
+// Ensures the salary is read as a number instead of a string.
+salary = parseFloat(salary);
+
+// Checks if 'salary' is a valid number, if not, converts to 0.
   if (isNaN(salary)) {
     salary = 0;
 }
@@ -24,27 +28,41 @@ let salary = prompt("Enter Employee Salary:")
   }
   employees.push(employee)
 
+// Exits out of the prompt loop if user hits 'cancel.'
   continuePrompt = confirm('Continue adding employees?')
 }
-
-  console.log(employees)
   return employees
   
-}
+};
 
 
-// Display the average salary
-
-
-  // TODO: Calculate and display the average salary
+  // Calculate and display the average salary
   const displayAverageSalary = function(employeesArray) {
-    let salary = `The average employee salary is `()
-    console.log(salary) }
+    let total = 0;
+    // Creates a for loop that iterates over 'employeesArray' that continues as long as 'i' is less than the length of employeesArray.
+    for(let i = 0; i < employeesArray.length; i++) {
+      total += employeesArray[i].salary;
+    }
+    let average = total / employeesArray.length;
+
+    // Displays salary to console.
+    console.log(`The average salary of all employees is: $` + average) 
+  }
+
+  
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
- return Math.floor(Math.random() * employeesArray)
-}
+  // Grabs a random name from the employeesArray
+let randomArray = Math.floor(Math.random() * employeesArray.length);
+let randomEmployee = employeesArray[randomArray];
+
+// Displays random employeee to console.
+console.log("The Employee of the Month is:", randomEmployee.firstName + " " + randomEmployee.lastName);
+
+} 
+
+
 
 /*
   ====================
