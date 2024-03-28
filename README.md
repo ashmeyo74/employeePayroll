@@ -31,6 +31,7 @@ The deployed portfolio webpage can be accessed via Github Pages by following the
 
 ## Credits
 Bootcamp Spot Tutor helped provide code for 'collectEmployees' function.
+Learning Assistant helped provide code for 'displayAverageSalary' and 'getRandomEmployee' functions.
 
 ## License
 N/A
