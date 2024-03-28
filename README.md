@@ -25,7 +25,9 @@ The deployed portfolio webpage can be accessed via Github Pages by following the
 * User will be asked if they want to continue adding employees. If they would like to add more, they press 'OK' and follow from step 1 until all Employees are added. If not, they can hit 'Cancel.' 
 
 **Webpage Screenshot & Active Console:**
-
+![Front Page displays a functioning code.](https://i.imgur.com/gFE6dDo.png)
+![Front Page displays a functioning code.](https://i.imgur.com/7HPtmhR.png)
+![Front Page displays a functioning code via the console.](https://i.imgur.com/RnKUpi3.png)
 
 ## Credits
 Bootcamp Spot Tutor helped provide code for 'collectEmployees' function.
